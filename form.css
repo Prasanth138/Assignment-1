@@ -1,0 +1,45 @@
+body{
+    margin : 0px;
+}
+form{
+    margin: 0px;
+    padding : 10px;
+    min-width: 100%;
+    min-height : 100%;
+    background-color : rgb(24, 230, 230);
+    color : #212726;    
+}
+.textbox{
+    margin : 5px;
+    min-width: 180px;
+    padding : 8px;
+    border : 1px solid #fff;
+    border-radius : 5px;
+    font : 15px bold ;
+    font-family : Times New Roman;
+}
+
+label{
+    
+    width : 125px;
+    display : inline-block;
+
+}    
+
+.btn{
+    margin : 10px;
+    padding : 5px 20px;
+    border : 1px solid #fff;
+    border-radius : 10px;
+    font-family : Times New Roman bold;
+    width : 140px;
+    display : inline-block;
+    
+}
+.textbox:hover{
+    box-shadow : 3px 3px 3px 2px rgb(86, 90, 86);
+    transition : box-shadow 0.2s rgb(86, 90, 86)
+}
+.btn:hover{
+    box-shadow : 3px 3px 3px 2px rgb(128, 128, 128);
+}
